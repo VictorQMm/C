@@ -24,7 +24,7 @@ for(int i = 0; i < strlen(v); i++){
 
     printf("\nInsira o codigo: ");
     scanf("%d", &v[i].cod);
-    fflush(stdin);
+    fflush(stdin);              // Usado para limpar o tipo de variavél do scanf. (Resetar o scanner)
 
     printf("\nInsira o sexo M/F: ");
     scanf("%c", &v[i].sexo);

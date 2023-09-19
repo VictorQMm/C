@@ -15,24 +15,33 @@ struct habitantes {
     char sexo;
     int filhos;
 };
-typedef struct habitantes Hab;
+typedef struct habitantes habitantes;
 
 main() {
-    Hab v[3];
+
+    int i;
+    printf("Digite o numero de hsbitantes:");
+    scanf("%d",&x);
+    habitantes;
 
     for(int i = 0; i < 3; i++) {
 
         printf("\nInsira o salario: ");
-        scanf("%d", &v[i].salario);
+        scanf("%d", &i[i].salario);
         fflush(stdin);
 
         printf("\nInsira a idade: ");
-        scanf("%d", &v[i].idade);
+        scanf("%d", &i[i].idade);
+        
+        if(habitantes[i].idade == 0){
+            printf("Fim");
+        }
+    }
 
         printf("\nInsira o sexo M/F: ");
-        scanf("%c", &v[i].sexo);
+        scanf("%c", &i[i].sexo);
 
         printf("\nInsira o tanto de filhos: ");
-        scanf("%.1d", &v[i].filhos);
-    }
+        scanf("%.1d", &i[i].filhos);
+    
 }
