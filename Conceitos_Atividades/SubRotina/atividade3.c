@@ -4,13 +4,11 @@ int fatorial(int num){
     int fat;
 
     if (num <= 1){
-        printf("Nao existe numero de fatorial negativo");
-    }
+        printf("Nao existe numero de fatorial negativo"); }
 
    fat = 1;
    for (int i=2; i <= num; i++){
-      fat = (fat * i);
-   }
+      fat = (fat * i);}
    return (fat) ;
 }
 

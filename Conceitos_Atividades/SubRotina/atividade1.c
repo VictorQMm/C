@@ -15,6 +15,5 @@ int main(){
     printf("\n Digite o numero 2 \n");
     scanf("%d", &n2);
     maior(n1,n2);
-    return 0;
 
 }

@@ -22,7 +22,7 @@ main() {
     int i;
     printf("Digite o numero de hsbitantes:");
     scanf("%d",&x);
-    habitantes;
+    int habitantes;
 
     for(int i = 0; i < 3; i++) {
 

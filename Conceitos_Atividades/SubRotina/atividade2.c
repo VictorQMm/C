@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <math.h>
 
-float raiz(int x){
-    float raiz;
+double raiz(int x){
+    double raiz;
     raiz = sqrt(x);
     return raiz;
 }
 
 int main(){
     int x;
-    float r;
+    double r;
 
     printf("Digite um valor para saber a raiz quadrada: ");
     scanf("%d", &x);
 
     r = raiz(x);
-    printf("\n A raiz eh: %.1f", r);
+    printf("\n A raiz eh: %.1lf", r);
 
     return 0;
 }

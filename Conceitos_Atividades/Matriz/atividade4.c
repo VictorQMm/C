@@ -7,25 +7,17 @@ int main() {
     int vet[18];
     int matriz[3][6];
     
-   
-    printf("Preencha o vetor com valores inteiros: ");
-    for (int i = 0; i < 18; i++) {
-        scanf("%d", &vet[i]);
+   for (int i = 0; i < 18; i++) {
+
+    printf("Preencha o vetor na sua posicao %d com valores inteiros: ", i);
+     scanf("%d", &vet[i]);
     }
     
-    for (int i = 0; i < 18 - 1; i++) {
-        for (int j = 0; j < 18 - i - 1; j++) {
-            if (vet[j] > vet[j + 1]) {
-                int temp = vet[j];
-                vet[j] = vet[j + 1];
-                vet[j + 1] = temp;
-            }
-        }
-    }
-    int help = 0;
+    int indice = 0;
+
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 6; j++) {
-            matriz[i][j] = vet[help++];
+            matriz[i][j] = vet[indice++];
         }
     }
     printf("Matriz 3x6 ordenada:");

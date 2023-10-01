@@ -15,33 +15,28 @@ int main() {
     printf("Digite as vendas semanais dos vendedores:\n");
 
     for (int i = 0; i < 3; i++) {
+        printf("Vendedor %d: \n", i + 1);
+         printf("\n");   
         for (int j = 0; j < 4; j++) {
-            
-            printf("Vendedor %d: ", i + 1);
-            scanf("%d", &matrizVendas[i][j]);
 
             printf("Semana %d: ", j + 1);
             scanf("%d", &matrizVendas[i][j]);
             
-            // Atualizar totais
             vendedores[i] += matrizVendas[i][j];
             semana[j] += matrizVendas[i][j];
             totalGeral += matrizVendas[i][j];
         }
     }
     
-    // Mostrar os totais de vendas do mes de cada vendedor
     printf("\nTotal de vendas do mes de cada vendedor:\n");
     for (int i = 0; i < 3; i++) {
         printf("Vendedor %d: %d\n", i + 1, vendedores[i]);
     }
-    
-    // Mostrar os totais de vendas de cada semana
+
     printf("\nTotal de vendas de cada semana:\n");
     for (int j = 0; j < 4; j++) {
         printf("Semana %d: %d\n", j + 1, semana[j]);
     }
     
-    // Mostrar o total de vendas do mês somando todos os vendedores
-    printf("\nTotal de vendas do mês somando todos os vendedores: %d\n", totalGeral);
+    printf("\nTotal de vendas do mes somando todos os vendedores: %d\n", totalGeral);
 }
