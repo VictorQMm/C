@@ -6,13 +6,13 @@
 
 void notas(float *nota1, float *nota2, float *nota3,  char *letra){    
 
-  if(*letra == 'A'){
+  if(*letra == 'A' || *letra == 'a' ){
     float mediaA = (*nota1 + *nota2 + *nota3) / 3;
     printf(" A media aritmeticia eh: %.2f ", mediaA);
 
-  }else if(*letra == 'P'){
+  }else if(*letra == 'P' || *letra == 'p'){
     float mediaP = (((*nota1*5) + (*nota2*3) + (*nota3*2)) / 10);
-    printf("A media aritmeticia eh: %.2f ", mediaP);
+    printf("A media ponderada eh: %.2f ", mediaP);
   }
     
 }
@@ -30,7 +30,7 @@ int main(){
     printf("\n Digite a nota 3: ");
     scanf("%f", &numero3);
 
-    printf("\n Digite uma letra:  ");
+    printf("\n Digite (A) para media aritmetica ou (P) para media ponderada: ");
     scanf(" %c", &letra);
    
    notas(&numero1, &numero2, &numero3, &letra);

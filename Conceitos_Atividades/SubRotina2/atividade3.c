@@ -4,6 +4,7 @@
 void soma_divisor(int valor, int *resultado){
 
     for(int i=1; i <= valor; i++){
+        *resultado = 0;
         if(valor % i == 0 ){
             *resultado += i;
         }

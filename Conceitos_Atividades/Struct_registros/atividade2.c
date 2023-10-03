@@ -27,11 +27,11 @@ main() {
     for(int i = 0; i < 3; i++) {
 
         printf("\nInsira o salario: ");
-        scanf("%d", &i[i].salario);
+        scanf("%d", &[i].salario);
         fflush(stdin);
 
         printf("\nInsira a idade: ");
-        scanf("%d", &i[i].idade);
+        scanf("%d", &[i].idade);
         
         if(habitantes[i].idade == 0){
             printf("Fim");
@@ -39,9 +39,9 @@ main() {
     }
 
         printf("\nInsira o sexo M/F: ");
-        scanf("%c", &i[i].sexo);
+        scanf("%c", &[i].sexo);
 
         printf("\nInsira o tanto de filhos: ");
-        scanf("%.1d", &i[i].filhos);
+        scanf("%.1d", &[i].filhos);
     
 }

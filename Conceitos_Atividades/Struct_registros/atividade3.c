@@ -38,10 +38,10 @@ int main() {
         printf("Digite o sexo (M/F): ");
         scanf(" %c", &pessoa.sexo);
 
-        printf("Digite o salário: ");
+        printf("Digite o salario: ");
         scanf("%f", &pessoa.salario);
 
-        printf("Digite o número de filhos: ");
+        printf("Digite o numero de filhos: ");
         scanf("%d", &pessoa.Filhos);
 
         // Calcular estatísticas
@@ -68,9 +68,9 @@ int main() {
         printf("a) A média de idade das mulheres com salário inferior a R$ 300,00: %.2f\n", 
                (contadorMulheres > 0) ? somaIdadeMulheres / contadorMulheres : 0);
 
-        printf("b) A média de salário da população: %.2f\n", somaSalario / contador);
-        printf("c) A média do número de filhos: %.2f\n", somaFilhos / contador);
-        printf("d) O maior salário: %.2f\n", maiorSalario);
+        printf("b) A media de salario da populacao: %.2f\n", somaSalario / contador);
+        printf("c) A media do numero de filhos: %.2f\n", somaFilhos / contador);
+        printf("d) O maior salario: %.2f\n", maiorSalario);
         printf("e) A menor idade: %d\n", menorIdade);
     } else {
         printf("Nenhum dado foi inserido.\n");

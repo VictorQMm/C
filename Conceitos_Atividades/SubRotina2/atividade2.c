@@ -7,7 +7,6 @@ void valores(float ValorAnt, float Valoratt, float *percentual) {
  
         *percentual = ((Valoratt - ValorAnt) / ValorAnt) * 100;
         
-  
 }
 
 
