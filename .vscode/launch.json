@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Vetores",
-      "program": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Vetores/build/Debug/outDebug",
+      "cwd": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Arquivos",
+      "program": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Arquivos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
