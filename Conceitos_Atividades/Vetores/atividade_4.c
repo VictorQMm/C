@@ -18,10 +18,10 @@ int main() {
 
     for (int i = 0; i < 6; i++) {
         if (vetor[i] % 2 == 0) {
-            printf("Par %d na posicao %d\n", vetor[i],i);
+            printf("Par %d na posicao %d\n", vetor[i],i + 1);
             par++;
         } else {
-            printf("Impar %d na posicao %d\n", vetor[i],i);
+            printf("Impar %d na posicao %d\n", vetor[i],i + 1);
             impar++;
         }
     }

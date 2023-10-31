@@ -26,7 +26,8 @@ int main() {
 
     printf("Informe o nome de uma musica:\n");
     gets(musica);
-
+    fflush(stdin);
+    
     printf("Informe um caractere:\n");
     scanf("%c", &caractere);
     int encontrado = 0;

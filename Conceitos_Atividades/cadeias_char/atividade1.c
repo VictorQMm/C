@@ -12,7 +12,7 @@ main ()  {
 		gets(pessoa[i]);
 		
 		}
-		
+
 		printf("Lista de nomes informados:\n");
 			for (i = 1; i < 6; i++) {
 	

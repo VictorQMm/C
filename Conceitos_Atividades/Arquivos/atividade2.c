@@ -1,14 +1,16 @@
+//Faça um programa que receba do usuário um arquivo texto e mostre na tela quantas letras são vogais.
+
 #include <stdio.h>
 
 int main() {
     char nome[100];
     char caract;
-    int cont = 0;
-    FILE *arq;
+    int vogal = 0;
 
-    printf("Digite o nome do arquivo de texto: ");
+    printf("Digite o nome do arquivo: ");
     scanf("%s", nome);
 
+    FILE *arq;
     arq = fopen(nome, "r");
 
     if (arq == NULL) {
@@ -21,13 +23,13 @@ int main() {
         caract = toupper(caract);
 
         if (caract == 'A' || caract == 'E' || caract == 'I' || caract == 'O' || caract == 'U') {
-            cont++;
+            vogal++;
         }
     }
 
     fclose(arq);
 
-    printf("O numero de vogais no arquivo eh : %d\n", cont);
+    printf("O numero de vogais no arquivo eh : %d\n", vogal);
 
     return 0;
 }

@@ -12,12 +12,12 @@ int main()
 
     for (int i = 0; i < 7; i++)
     {
-        printf("RA do aluno %d: ");
+        printf("RA do aluno %d: ", i+1);
         scanf("%d", &ra[i]);
 
-        printf("Média final do aluno %d: ");
+        printf("\n Media final do aluno %d: ", i+1);
         scanf("%f", &media[i]);
-
+    }
         float maiormedia = media[0];
         int ramaior = ra[0];
 
@@ -29,15 +29,18 @@ int main()
                 ramaior = ra[i];
             }
         }
-        printf("Maior media: %.2f", maiormedia);
-        printf("RA do aluno com maior media: %d", ramaior);
+
+        printf("\n Maior media: %.2f", maiormedia);
+
+        printf("\n RA do aluno com maior media: %d", ramaior);
+
+        printf("\n");
 
         for (int i = 0; i < 7; i++)
         {
-            if (media[i] < 7)
-            {
-                printf("RA %d precisa tirar %.2f", ra[i], 10 - media[i]);
+            if (media[i] < 7){
+                printf("\n RA %d precisa tirar %.2f", ra[i], 7 - media[i]);
             }
         }
-    }
+    
 }

@@ -1,3 +1,5 @@
+//Faça um programa que salvará dados de alunos em arquivos. Um aluno será composto pelos seguintes campos: numero, nome, curso, nota1, nota2. Cada campo será informado pelo usuário. O seu programa deverá criar um arquivo chamado NomeDoAluno.txt (haverá um arquivo por aluno) e salvar as informações do aluno neste arquivo. Teste seu programa com 3 alunos.
+
 #include <stdio.h>
 
 int main() {
@@ -28,7 +30,7 @@ int main() {
         FILE *arquivo = fopen(nomeArq, "w");
 
         if (arquivo == NULL) {
-            printf("Erro ao criar o arquivo para o aluno %s.\n", nome);
+            printf("Erro ao criar o arquivo %s.\n", nome);
             return 1;
         }
 
