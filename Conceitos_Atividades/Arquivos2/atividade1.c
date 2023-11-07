@@ -8,7 +8,7 @@ int main() {
 	char texto[50];
 	FILE *arq;
 	char caractere;
-	int contador;
+	int contador = 0;
 	char escolha;
 	
 	arq = fopen("atividade1.txt", "r");

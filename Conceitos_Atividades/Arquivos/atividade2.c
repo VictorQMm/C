@@ -7,11 +7,9 @@ int main() {
     char caract;
     int vogal = 0;
 
-    printf("Digite o nome do arquivo: ");
-    scanf("%s", nome);
 
     FILE *arq;
-    arq = fopen(nome, "r");
+    arq = fopen("novo.txt", "r");
 
     if (arq == NULL) {
         printf("Erro ao abrir o arquivo.\n");

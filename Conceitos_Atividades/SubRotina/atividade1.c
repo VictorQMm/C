@@ -14,6 +14,13 @@ int main(){
     scanf("%d", &n1);
     printf("\n Digite o numero 2 \n");
     scanf("%d", &n2);
-    maior(n1,n2);
+
+     int n4, n3;
+    printf("\n Digite o numero 1 \n");
+    scanf("%d", &n4);
+    printf("\n Digite o numero 2 \n");
+    scanf("%d", &n3);
+
+    maior(n4,n3);
 
 }

@@ -12,7 +12,6 @@ int main(){
     FILE *arq, *arq2;
     char frase[50];
     char caract[50];
-    int i;
 
 arq = fopen("arq.txt", "w");  
 
