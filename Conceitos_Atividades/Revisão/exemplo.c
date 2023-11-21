@@ -33,14 +33,19 @@ int main() {
     for (int i = 0; i < 30; i++) {
         printf("Digite o fabricante do carro %d: ", i + 1);
         scanf("%s", carros[i].fabricante);
+
         printf("Digite o modelo do carro %d: ", i + 1);
         scanf("%s", carros[i].modelo);
+
         printf("Digite a placa do carro %d: ", i + 1);
         scanf("%s", carros[i].placa);
+
         printf("Digite o tipo de combustível do carro %d: ", i + 1);
         scanf("%s", carros[i].tipoCombustivel);
+
         printf("Digite a capacidade do tanque (em litros) do carro %d: ", i + 1);
         scanf("%f", &carros[i].capacidadeTanque);
+
         printf("Digite o consumo em litros por quilômetro do carro %d: ", i + 1);
         scanf("%f", &carros[i].consumoLitrosPorKm);
     }
@@ -56,7 +61,7 @@ int main() {
         // Calcular e exibir o valor gasto em combustível para uma viagem de 100 km
         float distancia = 100.0;
         float autonomia = calcularAutonomia(carros[i].capacidadeTanque, carros[i].consumoLitrosPorKm);
-        float gasto = calcularGastoCombustivel(distancia, carros[i].consumoLitrosPorKm, precoCombustivel);
+        float gasto = calcularGastoCombustivel(distancia, carros[i].consumoLitrosPorKm, 9);
         printf("Valor gasto em combustível para uma viagem de 100 km: R$%.2f\n", gasto);
 
         // Calcular e exibir a autonomia do carro

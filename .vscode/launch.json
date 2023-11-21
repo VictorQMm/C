@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Arquivos2",
-      "program": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Arquivos2/build/Debug/outDebug",
+      "cwd": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Revisão",
+      "program": "c:/Users/yguin/OneDrive/Documentos/C/Conceitos_Atividades/Revisão/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -26,7 +26,6 @@ int main() {
 	char caract;
 	 while ((caract = fgetc(arq)) != EOF) {
 
-
         if (caract == 'a' || caract == 'e' || caract == 'i' || caract == 'o' || caract == 'u' ||
             caract == 'A' || caract == 'E' || caract == 'I' || caract == 'O' || caract == 'U') {
             fputc('*', arq2);

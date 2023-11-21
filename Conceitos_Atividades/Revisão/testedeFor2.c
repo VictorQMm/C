@@ -34,5 +34,5 @@ for(int i = 0; i < 2; i++){
     printf("\n valorT: %.2f", cleito[i].valorT);
     printf("\n Comissao: %.2f", cleito[i].comissao);
     printf("\n Salario Final: %.2f", cleito[i].salarioF);
-}
+    }
 }

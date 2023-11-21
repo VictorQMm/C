@@ -1,3 +1,5 @@
+// Implemente uma função que receba um número e apresente a raiz quadrada do mesmo.
+
 #include <stdio.h>
 #include <math.h>
 

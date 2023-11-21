@@ -1,3 +1,5 @@
+//Faça um programa que armazene, em um registro, os dados de um funcionário de uma empresa, compostos de: Nome, Idade, Sexo (M/F), CPF, Data de Nascimento, Codigo do Setor onde trabalha (0-99), Cargo que ocupa (string de até 30 caracteres) e Salário. Em uma subrotina que recebe o registro como parâmetro passado por referência, receba os dados digitados pelo usuário e armazene-os na estrutura. Na função principal, exiba esses dados na tela.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

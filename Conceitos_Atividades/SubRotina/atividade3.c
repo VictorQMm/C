@@ -1,3 +1,5 @@
+// Implemente uma função que calcule o fatorial de um número.
+
 #include <stdio.h>
 
 int fatorial(int num){

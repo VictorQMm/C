@@ -1,3 +1,5 @@
+//Crie uma subrotina que preencha um vetor com números inteiros aleatórios (utilize a função rand() ). Após o preenchimento, solicite um número qualquer ao usuário. Invoque outra subrotina, passando o vetor e o número digitado pelo usuário como parâmetros, e verifique se o número digitado pelo usuário está presente no vetor. Na função principal, informe ao usuário se o número está presente no vetor ou não.
+
 #include <stdio.h>
 #include <stdlib.h>
 

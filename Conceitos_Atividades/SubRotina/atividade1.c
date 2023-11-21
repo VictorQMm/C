@@ -1,3 +1,5 @@
+// Implemente  uma função que receba dois números inteiros e apresente o maior número.
+
 #include <stdio.h>
 
 void maior(int n1, int n2){
@@ -15,12 +17,6 @@ int main(){
     printf("\n Digite o numero 2 \n");
     scanf("%d", &n2);
 
-     int n4, n3;
-    printf("\n Digite o numero 1 \n");
-    scanf("%d", &n4);
-    printf("\n Digite o numero 2 \n");
-    scanf("%d", &n3);
-
-    maior(n4,n3);
+    maior(n1,n2);
 
 }
